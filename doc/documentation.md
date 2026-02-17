@@ -32,3 +32,13 @@ The primary usage and MVP of orchid is a native executable CLI tool for Unix-bas
 
 By default, all data is hosted locally for maximum security. However, through the `Hosting_CRUD` controller/tool, it should be possible to set a new location to host specifically the `RecordsTable`. The `UsersTable` should always be locally hosted. Security policies such as stronger encryption schemes, custom input validation, stronger salting, and other miscellanious cryptographic settings can be set via the `SecurityPolicy_CRUD` controller. This should allow a customizable level of system security while still maintaining an acceptable default level of security.
 
+## Deployment Strategy
+Much of the necessary code is already written in Java, so I am reluctant to rewrite it in another langugage like Go to make the CLI easy. The deployment strategy will be to use GraalVM and picocli to create an easy to download executable file.
+
+### Testing
+I will use a CI/CD pipeline in Github Actions to automate my testing. I will also use a static application security testing tool to find any obvious vulnerabilities, as well as a fuzzer to find any possibly malformed inputs. Code coverage is secondary to test quality. I will also have some friendly neighborhood red teamers attempt to break it, and I will perform penetration tests myself given what I know about the system.
+
+### Deployment Schedule
+There is no fixed schedule. Once an epic is completed, a new version will be released and tagged.
+
+### 
