@@ -4,7 +4,9 @@ This document is a compendium of the design approach that the team will take tow
 ## Deliverables
 
 - [ ] Define Core Values
-    - [ ] 
+    - [ ] 1-3 Core tenets
+    - [ ] Who is this for?
+    - [ ] Why are we doing this?
 - [ ] Threat Model
     - [ ] Determine what Orchid guarantees and what it can't
 - [ ] Define Scope
