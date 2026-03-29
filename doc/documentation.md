@@ -1,14 +1,12 @@
 # Orchid Development Documentation
-This document is a compendium of the design approach that the team will take towards the project.
+This document is a compendium of the design approach that the team will take towards the project, as well as the major deliverables that the team must  take and have taken.
 
 ## Deliverables
-
+This is a list of deliverables that need to get done before we can begin to actually write code.
 - [ ] Define Core Values
     - [ ] 1-3 Core tenets
     - [ ] Who is this for?
     - [ ] Why are we doing this?
-- [ ] Threat Model
-    - [ ] Determine what Orchid guarantees and what it can't
 - [ ] Define Scope
     - [ ] OS
     - [ ] UI
@@ -18,11 +16,26 @@ This document is a compendium of the design approach that the team will take tow
     - [ ] Crypto suites
     - [ ] KDFs
 - [ ] What is not in Scope
+    - [ ] v1 Plans
+        - [ ] Configurations
+    - [ ] What we will not be doing
 - [ ] Diagrams
+    - [ ] Domain Model
+        - [ ] Problem domain diagram
+    - [ ] Thread Model
+        - [ ] More solution domain diagram
+        - [ ] Determine what Orchid guarantees and what it can't
     - [ ] Architectural Model (Layered)
         - [ ] Layer + Trust Boundaries
         - [ ] Logical Flow of Data
         - [ ] Where are logs stored? What can they log?
+    - [ ] Use Case Flow
+        - [ ] How do commands chain together to achieve the different functions?
+    - [ ] Behaviour
+        - [ ] Sequence Diagramming (problem domain)
+        - [ ] Map Sequences to solution domain
+    - [ ] Class/Data
+        - [ ] Static class diagrams
     - [ ] Vault Format
         - [ ] Filesystem Structure
         - [ ] Header Format
@@ -68,5 +81,13 @@ This document is a compendium of the design approach that the team will take tow
     - [ ] Proof of Concept needed?
 - [ ] Orchid Versioning Strategy
     - [ ] Separate by domain?
+- [ ] Contribution Strategy
+    - [ ] Getting Started
+    - [ ] Wiki
+    - [ ] Development Environments
+    - [ ] Discussion forums
+    - [ ] Code Reviews
+    - [ ] Refine contributing.md
 
 At the end of the day, before coding starts, these are the things we need to get done. We need 1-3 non-negotiable tenets to guide our decisions in the future, and a serious engineering approach to secure software.
+
